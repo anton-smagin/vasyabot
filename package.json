@@ -1,0 +1,26 @@
+{
+    "name": "vasya-lister",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www",
+        "dev": "DEBUG=vasya-lister:* node ./bin/www"
+    },
+    "dependencies": {
+        "ccxt": "^1.11.147",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.6.9",
+        "dotenv": "^5.0.1",
+        "express": "~4.16.0",
+        "http-errors": "^1.6.2",
+        "mongoose": "^5.0.11",
+        "morgan": "~1.9.0",
+        "pug": "2.0.0-beta11",
+        "twitter": "^1.7.1"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.9.0"
+    }
+}
